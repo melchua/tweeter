@@ -10,8 +10,8 @@
 
 // return # of days from
 function numOfDaysFrom(date) {
-  let today = Date.now();
-  let remaining = today - date;
+  const today = Date.now();
+  const remaining = today - date;
   const minutes = 1000 * 60;
   const hours = minutes * 60;
   const days = hours * 24;
@@ -105,21 +105,6 @@ const data = [
   }
 ];
 
-const tweetData = {
-  "user": {
-    "name": "Newton",
-    "avatars": {
-      "small":   "https://vanillicon.com/788e533873e80d2002fa14e1412b4188_50.png",
-      "regular": "https://vanillicon.com/788e533873e80d2002fa14e1412b4188.png",
-      "large":   "https://vanillicon.com/788e533873e80d2002fa14e1412b4188_200.png"
-    },
-    "handle": "@SirIsaac"
-  },
-  "content": {
-    "text": "If I have seen further it is by standing on the shoulders of giants"
-  },
-  "created_at": 1461116232227
-};
 
 $(function() {
   // let $tweet = createTweetElement(tweetData);
@@ -130,23 +115,3 @@ $(function() {
 
 
 
-/*
-        <article class="tweet">
-          <header>
-            <img src="https://theblueraft.files.wordpress.com/2010/08/aang.jpg" class="avatar">
-            <h2>J-Money</h2>
-            <span class="tweetId">@MrMoney</span>
-          </header>
-          <section class="content">
-            The new T-swizzle album just dropped!!! Derp.
-          </section>
-          <footer>
-            <span class="daysPassed">10 days ago</span>
-            <span class="tweeterIcons">
-              <i class="fas fa-flag-checkered"></i>
-              <i class="fas fa-retweet"></i>
-              <i class="fas fa-heartbeat"></i>
-            </span>
-          </footer>
-        </article>
-        */
