@@ -68,7 +68,9 @@ function renderTweets(tweets) {
 
 function loadTweets() {
   $.ajax({
-    success: renderTweets
+    method: 'GET',
+    url: '/tweets',
+    success: renderTweets,
   })
 
 }
@@ -83,15 +85,14 @@ function newTweet() {
       $.ajax({
         method: 'POST',
         url: '/tweets',
-        // success: loadTweets,
+        success: loadTweets,
         data: $newTweet.serialize()
       });
     });
 }
 
 $(function() {
-
-  renderTweets(data);
+  loadTweets();
   newTweet();
 });
 
