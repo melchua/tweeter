@@ -31,8 +31,6 @@ article header {
 article section.content {
   background-color: white;
   padding: 10px;
-  line-height: 2em;
-
 }
 
 article footer {
@@ -59,7 +57,7 @@ article footer .daysPassed {
   border-radius: 4px;
 }
 
-.tweetId {
+.handle {
   font-size: 1em;
   color: #aaa;
   float: right;
@@ -77,5 +75,9 @@ article footer .daysPassed {
 
 article.tweet:hover .tweeterIcons {
   visibility: visible;
+
+}
+
+#tweets-container {
 
 }
