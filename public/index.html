@@ -9,6 +9,8 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,700,700i" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
     <!-- App CSS -->
     <link rel="stylesheet" href="/styles/layout.css" type="text/css" />
 
@@ -16,6 +18,7 @@
 
     <link rel="stylesheet" href="/styles/new-tweet.css" type="text/css" />
 
+    <link rel="stylesheet" href="/styles/tweet.css" type="text/css" />
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
 
@@ -40,8 +43,31 @@
         <form action="/tweets" method="POST">
           <textarea name="text" placeholder="What are you humming about"></textarea>
           <input type="submit" value="Tweet">
-          <span class="counter">140</span>
+          <span class="counter"></span>
         </form>
+      </section>
+
+      <section class="tweets">
+
+        <article class="tweet">
+          <header>
+            <img src="https://theblueraft.files.wordpress.com/2010/08/aang.jpg" class="avatar">
+            <h2>J-Money</h2>
+            <span class="tweetId">@MrMoney</span>
+          </header>
+          <section class="content">
+            The new T-swizzle album just dropped!!! Derp.
+          </section>
+          <footer>
+            <span class="daysPassed">10 days ago</span>
+            <span class="tweeterIcons">
+              <i class="fas fa-flag-checkered"></i>
+              <i class="fas fa-retweet"></i>
+              <i class="fas fa-heartbeat"></i>
+            </span>
+          </footer>
+        </article>
+
       </section>
     </main>
 

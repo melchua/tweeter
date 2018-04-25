@@ -1,19 +1,16 @@
 $(function() {
   console.log("ready");
 
-  let textarea = $(".new-tweet textarea");
+  const counter = $('.counter');
   const defaultCount = 140;
 
-  textarea.on("keyup", function(event) {
+  $(".new-tweet textarea").on("input", function(event) {
     let inputLength = $(this).val().length;
-    let counter = $(this).siblings(".counter").get(0);
-    counter.innerText = parseInt(defaultCount) - parseInt(inputLength);
-    if (counter.innerText < 0) {
-      $(counter).css({"color": "red"});
-    } else {
-      $(counter).css({"color": "black"});
-    }
-  });
+    let remaining = defaultCount - inputLength;
 
+    counter.css({"color": remaining < 0 ? "red" : "black"});
+    counter.text(remaining);
+  });
+  counter.text(defaultCount);
 });
 

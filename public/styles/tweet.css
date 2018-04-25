@@ -1,0 +1,81 @@
+article.tweet {
+  background-color: #eee;
+  padding: 0px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  margin: 10px 0px 10px 0px;
+  overflow: hidden;
+  opacity: .6;
+}
+
+article.tweet:hover {
+  opacity: 1;
+}
+
+article h2 {
+  margin: 0;
+  border-bottom: 0;
+  color: #999;
+  display: inline-block;
+  line-height: 2em;
+}
+
+article header {
+  clear: both;
+  content: "";
+  display: table;
+  padding: 7px ;
+  width: 100%;
+}
+
+article section.content {
+  background-color: white;
+  padding: 10px;
+  line-height: 2em;
+
+}
+
+article footer {
+  background-color: white;
+  padding: 5px;
+  border-top: 1px solid lightgrey;
+  font-size: 0.75em;
+  width: 100%;
+  clear: both;
+  content: "";
+  display: table;
+}
+
+article footer .daysPassed {
+  line-height: 2em;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  float: left;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 4px;
+}
+
+.tweetId {
+  font-size: 1em;
+  color: #aaa;
+  float: right;
+  line-height: 3.3em;
+}
+
+.tweeterIcons {
+  color: Teal;
+  font-size: 1.4em;
+  float: right;
+  letter-spacing: .2em;
+  visibility: hidden;
+  line-height: 1.5em;
+}
+
+article.tweet:hover .tweeterIcons {
+  visibility: visible;
+
+}
