@@ -18,6 +18,12 @@ function numOfDaysFrom(date) {
   return Math.floor(remaining/days);
 }
 
+function escape(str) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(str));
+  return div.innerHTML;
+}
+
 function createTweetElement(tweetData) {
   let name = tweetData.user.name;
   let handle = tweetData.user.handle;
@@ -35,7 +41,7 @@ function createTweetElement(tweetData) {
 
 //build content section
   let $content = $("<section>").addClass("content");
-  $content.append(content + "</section>");
+  $content.append( escape(content) + "</section>");
 
 // build footer
   let $footer = $("<footer><span class='daysPassed'>" + daysPassed + " days ago </span><span class='tweeterIcons'><i class='fas fa-flag-checkered'></i><i class='fas fa-retweet'></i><i class='fas fa-heartbeat'></i></span></footer>");
