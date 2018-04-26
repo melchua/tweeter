@@ -1,6 +1,4 @@
 $(function() {
-  console.log("ready");
-
   const counter = $('.counter');
   const defaultCount = 140;
 
