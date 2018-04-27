@@ -10,17 +10,17 @@ This uses jQuery, AJAX, Node, Express and MongoDB.
 
 ## Screenshots
 
-![Compose Tweet]:(tweeter/docs/tweeter-composetweet.png)
+![Compose Tweet](tweeter/docs/tweeter-composetweet.png)
 
-![Compose Hidden]:(tweeter/docs/tweeter-hiddencompose.png)
+![Compose Hidden](tweeter/docs/tweeter-hiddencompose.png)
 
-![Hilighted Tweet]:(tweeter/docs/tweeter-highlighted.png)
+![Hilighted Tweet](tweeter/docs/tweeter-highlighted.png)
 
-![Hilighted Tweet]:(tweeter/docs/tweeter-highlighted.png)
+![Hilighted Tweet](tweeter/docs/tweeter-highlighted.png)
 
-![Initial Tweeter Window]:(tweeter/docs/tweeter-main.png)
+![Initial Tweeter Window](tweeter/docs/tweeter-main.png)
 
-![Too Many Characters]:(tweeter/docs/tweeter-toomanychars.png)
+![Too Many Characters](tweeter/docs/tweeter-toomanychars.png)
 
 
 ## Getting Started
