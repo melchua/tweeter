@@ -1,3 +1,4 @@
+// Character counter function
 $(function() {
   const counter = $('.counter');
   const defaultCount = 140;

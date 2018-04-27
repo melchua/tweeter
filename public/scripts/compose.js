@@ -1,5 +1,5 @@
+// This function is used to toggle slide upon click of Compose button
 $(function() {
-  // This function is used to toggle slide upon click of Compose button
   const $newTweet = $(".new-tweet");
   $(".compose").on("click", function(event) {
     event.preventDefault();

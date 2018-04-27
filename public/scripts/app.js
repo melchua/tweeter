@@ -4,11 +4,6 @@
  * Reminder: Use (and do all your DOM work in) jQuery's document ready function
  */
 
-// Fix later:
-// tweetId == handle, fix this in CSS later
-// fix styling for content boxes instead of line-height, do a padding
-
-// return # of days from
 function numOfDaysFrom(date) {
   const today = Date.now();
   const remaining = today - date;
@@ -65,14 +60,12 @@ function renderTweets(tweets) {
 }
 
 function loadTweets() {
-
   $.ajax({
     method: 'GET',
     url: '/tweets',
     success: renderTweets,
   })
 }
-
 
 function newTweet() {
   var $newTweet = $('#new-tweet')
