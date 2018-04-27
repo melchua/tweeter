@@ -8,6 +8,21 @@ The twitter clone allows the user to compose a tweet. When the user clicks on th
 
 This uses jQuery, AJAX, Node, Express and MongoDB.
 
+## Screenshots
+
+![Compose Tweet]:(tweeter/docs/tweeter-composetweet.png)
+
+![Compose Hidden]:(tweeter/docs/tweeter-hiddencompose.png)
+
+![Hilighted Tweet]:(tweeter/docs/tweeter-highlighted.png)
+
+![Hilighted Tweet]:(tweeter/docs/tweeter-highlighted.png)
+
+![Initial Tweeter Window]:(tweeter/docs/tweeter-main.png)
+
+![Too Many Characters]:(tweeter/docs/tweeter-toomanychars.png)
+
+
 ## Getting Started
 
 1. Fork this repository, then clone your fork of this repository.
