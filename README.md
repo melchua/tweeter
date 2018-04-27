@@ -10,16 +10,19 @@ This uses jQuery, AJAX, Node, Express and MongoDB.
 
 ## Screenshots
 
+#### Compose Tweet
 ![Compose Tweet](https://github.com/melchua/tweeter/blob/master/docs/tweeter-composetweet.png?)
 
+#### Compose Hidden
 ![Compose Hidden](https://github.com/melchua/tweeter/blob/master/docs/tweeter-hiddencompose.png)
 
-![Hilighted Tweet](https://github.com/melchua/tweeter/blob/master/docs/tweeter-highlighted.png)
+#### Hi-lighted Tweet
+![Hi-lighted Tweet](https://github.com/melchua/tweeter/blob/master/docs/tweeter-highlighted.png)
 
-![Hilighted Tweet](https://github.com/melchua/tweeter/blob/master/docs/tweeter-highlighted.png)
-
+#### Initial Tweeter Window
 ![Initial Tweeter Window](https://github.com/melchua/tweeter/blob/master/docs/tweeter-main.png)
 
+#### Too Many Characters
 ![Too Many Characters](https://github.com/melchua/tweeter/blob/master/docs/tweeter-toomanychars.png)
 
 
