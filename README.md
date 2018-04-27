@@ -10,9 +10,9 @@ This uses jQuery, AJAX, Node, Express and MongoDB.
 
 ## Screenshots
 
-![Compose Tweet](tweeter/docs/tweeter-composetweet.png)
+![Compose Tweet](https://github.com/melchua/tweeter/blob/master/docs/tweeter-composetweet.png?raw=true)
 
-![Compose Hidden](tweeter/docs/tweeter-hiddencompose.png)
+![Compose Hidden](https://github.com/melchua/tweeter/docs/tweeter-hiddencompose.png)
 
 ![Hilighted Tweet](tweeter/docs/tweeter-highlighted.png)
 
