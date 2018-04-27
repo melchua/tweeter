@@ -10,11 +10,7 @@ MongoClient.connect(MONGODB_URI, (err, db) => {
     throw err;
   }
 
-  // we have a connection to the "test-tweets" db, starting here:
-  // This is the entry point for a database-connected application
   console.log(`Connected to mongodb: ${MONGODB_URI}`);
-
-  // refactored in tweet specific function
 
   function getTweets(callback) {
     db.collection("tweets").find().toArray(callback);
@@ -30,7 +26,5 @@ MongoClient.connect(MONGODB_URI, (err, db) => {
   });
 
   db.close();
-
-
 });
 
